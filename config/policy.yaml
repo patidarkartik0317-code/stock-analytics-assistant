@@ -1,0 +1,11 @@
+thresholds:
+  jailbreak_high: 0.75
+
+actions:
+  investment_advice_request: block
+  harmful_non_financial: block
+  benign_market_question: allow
+  other: allow
+
+jailbreak_overrides:
+  high_score_action: block
