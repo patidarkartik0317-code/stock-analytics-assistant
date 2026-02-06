@@ -1,5 +1,5 @@
 import streamlit as st
-from ..llm_client import call_llm, BASE_SYSTEM_PROMPT
+from llm_client import call_llm, BASE_SYSTEM_PROMPT
 from safety.pipeline import run_safety_on_input, run_safety_on_output
 from logging_utils import log_interaction
 
